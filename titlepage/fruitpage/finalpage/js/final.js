@@ -7,3 +7,10 @@ movies3Library = ["A Whisker Away","Moonlight","Lady Bird","The Florida Project"
 movies4Library = ["The Breadwinner","Song of the Sea","I lost My Body","Klaus","Rango"];
 
 movies5Library = ["Long Shot","Safety Not Guaranteed","50 First Dates","I Care A Lot","Alive From New York", "New In Town", "Homecoming King", "Easy A"];
+
+var suggestionTrigger = $('button');
+
+suggestionTrigger.on('click', function() {
+    var randomMovie = Math.floor(Math.round(((Math.random() * 5))));
+    $('#outputcontent').append(movies1Library[randomMovie]);
+});
