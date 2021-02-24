@@ -47,32 +47,11 @@ movies3Library = ["A Whisker Away","Moonlight","Lady Bird","The Florida Project"
 movies4Library = ["The Breadwinner","Song of the Sea","I lost My Body","Klaus","Rango"];
 
 movies5Library = ["Long Shot","Safety Not Guaranteed","50 First Dates","I Care A Lot","Alive From New York", "New In Town", "Homecoming King", "Easy A"];
-//apple button
-var appleButton = $('#apple');
-appleButton.click(function() {
+
+//Below is the button function which directs the user to the final page
+
+var buttonToFinal = $('button');
+
+buttonToFinal.click(function() {
   window.location = "fruitpage/finalpage/final.html"
-});
-
-//orange button
-var orangeButton = $('#orange');
-orangeButton.onClick(function() {
-  window.location="insert page 3 url here"
-});
-
-//pear button
-var pearButton = $('#pear');
-pearButton.onClick(function() {
-  window.location="insert page 4 url here"
-});
-
-//banana button
-var bananaButton = $('#banana');
-bananaButton.onClick(function() {
-  window.location="insert page 5 url here"
-});
-
-//peach button
-var peachButton = $('#peach');
-peachButton.onClick(function() {
-  window.location="insert page 6 url here"
 });
